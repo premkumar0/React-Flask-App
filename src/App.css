@@ -1,0 +1,96 @@
+/* Base table styling similar to Bootstrap */
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+/* Fixed width columns */
+.col-employee-number {
+    width: 100px;
+}
+
+.col-last-name {
+    width: 150px;
+}
+
+.col-first-name {
+    width: 150px;
+}
+
+.col-extension {
+    width: 100px;
+}
+
+.col-email {
+    width: 200px;
+}
+
+.col-office-code {
+    width: 100px;
+}
+
+.col-job-title {
+    width: 200px;
+}
+
+.col-city {
+    width: 180px;
+}
+
+.col-phone {
+    width: 400px;
+}
+
+.col-reports-to {
+    width: 100px;
+}
+
+.col-reports-to-last-name {
+    width: 150px;
+}
+
+.col-reports-to-first-name {
+    width: 150px;
+}
